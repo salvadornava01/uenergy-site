@@ -31,4 +31,4 @@ urlpatterns = [
     path('contacform/', contact_form_view, name='contact_form_view'),
     path('cotizform/', cotiz_form_view, name='cotiz_form_view'),
     path('thankyou/<str:id>/', thankyoupage_view, name='thankyoupage_view'),
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
