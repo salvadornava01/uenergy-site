@@ -1,0 +1,55 @@
+<section id="cotizform-secc">
+    <div class="fondo-oscuro3">
+        <div class="container">
+            <div class="collapse" id="cotiz-form-collapse" style="padding-top: 50px;">
+                <div class="card" style="margin-top: 20px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Solicitar Cotización</h5>
+                        <form action="/cotizform/" method="POST"> {% csrf_token %}
+                            <div class="form-group">
+                              {{ cotizform.nombre_completo.errors }}
+                              {{ cotizform.nombre_completo.label_tag }}
+                              {{ cotizform.nombre_completo }}
+                            </div>
+                            <div class="form-group">
+                              {{ cotizform.empresa.errors }}
+                              {{ cotizform.empresa.label_tag }}
+                              {{ cotizform.empresa }}
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                      {{ cotizform.numero_telefonico.errors }}
+                                      {{ cotizform.numero_telefonico.label_tag }}
+                                      {{ cotizform.numero_telefonico }} 
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                      <div class="form-group">
+                                          {{ cotizform.email_de_contacto.errors }}
+                                          {{ cotizform.email_de_contacto.label_tag }}
+                                          {{ cotizform.email_de_contacto }} 
+                                      </div>
+                                  </div>
+                            </div>
+                            <div class="form-group">
+                              {{ cotizform.mensaje_de_solicitud.errors }}
+                              {{ cotizform.mensaje_de_solicitud.label_tag }}
+                              {{ cotizform.mensaje_de_solicitud }}
+                            </div>
+                            <div style="text-align: center;">
+                              <input type="submit" class="btn btn-info" value="Enviar Solicitud">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $('.button-cotizform-collapse').click(function(){
+    $("html, body").animate({ scrollTop: $('#cotizform-secc').offset().top });
+    // console.log('xdxd')
+    });
+</script>

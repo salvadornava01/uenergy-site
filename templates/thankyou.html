@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="primera-seccion">
+    <div class="fondo-oscuro">
+      <div class="container">
+        <div class="row">
+          <div class="logo-titulo" style="margin-left:auto;margin-right:auto;">
+              <div class="headline-pagina">
+                <img src="/static/images/rayeps.png" style="width:90px;"alt=""><br><br>
+                GRACIAS
+              </div>
+          </div>
+        </div>
+        <div style="margin-bottom: 20px">
+          <div class="subheadline-pagina">
+            Estimado(a): {{nombre_contacto}} <br>
+            Su solicitud ha sido enviada correctamente
+          </div>
+          </div>
+          <div class="">
+              <div class="subsubheadline-pagina" style="margin-bottom: 10px;">
+                  En breve uno de nuestros representantes se pondrá en contacto con usted para darle una respuesta a su solicitud
+              </div><br>
+          </div>
+          <div style="text-align: center; padding-bottom: 20px;">
+            <a href="/" class="btn btn-info">CONTINUAR</a>
+          </div>
+      </div>
+    </div>
+  
+  </section>
+{% endblock %}

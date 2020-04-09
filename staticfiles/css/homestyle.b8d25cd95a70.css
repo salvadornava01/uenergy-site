@@ -1,0 +1,778 @@
+.primera-seccion {
+    /* background-image: url(https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1524&q=80); */
+    background-image: url(https://images.unsplash.com/photo-1551522355-dbf80597eba8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+    /* background-image: url(https://images.unsplash.com/photo-1561908588-2dc1003b76aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80); */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center top;
+    margin-top: 50px;
+}
+.clientes-page {
+  /* background-image: url(https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1524&q=80); */
+  background-image: url("/static/images/clients.79cae865f7f2.jpg");
+  /* background-image: url(https://images.unsplash.com/photo-1561908588-2dc1003b76aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80); */
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center -100px;
+  margin-top: 50px;
+}
+.fondo-oscuro{
+  background-color: rgba(0, 23, 43, 0.5);
+}
+.fondo-oscuro2{
+  background-color: rgba(120, 155, 160, 0.267);
+  padding: 20px 0 80px 0;
+}
+.fondo-oscuro-az{
+  background-color: rgba(45, 140, 145, 0.692);
+  padding: 20px 0 80px 0;
+  
+}
+.fondo-oscuro3{
+  background-image: linear-gradient(90deg, #004074 50%,#00325a 50%);
+  /* background-image: linear-gradient(#ff10a336,#6b5e661f),url(https://i.ibb.co/W0h4XWV/fondo-pnk-1.jpg); */
+  padding: 20px 0 20px 0;
+}
+.fondo-oscuro4{
+  background-image: linear-gradient(270deg, #004074 50%,#00325a 50%);
+  /* background-image: linear-gradient(#ff10a336,#6b5e661f),url(https://i.ibb.co/W0h4XWV/fondo-pnk-1.jpg); */
+  padding: 20px 0 20px 0;
+}
+.fondo-oscuro5{
+  /* background-image: linear-gradient(270deg, #004074 50%,#00325a 50%); */
+  background-color: #00325a;
+  /* background-image: linear-gradient(#ff10a336,#6b5e661f),url(https://i.ibb.co/W0h4XWV/fondo-pnk-1.jpg); */
+  padding: 20px 0 20px 0;
+}
+.headline-pagina{
+  color: white;
+  font-size: 30px;
+  /* background-color: rgba(255, 0, 0, 0.5); */
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+.subheadline-pagina{
+  width: 100%;
+  color: white;
+  font-size: 25px;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight:700;
+}
+.right-title-pagina{
+  color: white;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.subsubheadline-pagina{
+  color: white;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.sec-headline-pagina {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.sec-headline-pagina2 {
+  text-align: center;
+  color: black;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 34px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+.sec-headline-white{
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 34px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+.texto-descriptivo {
+  text-align: center;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+.texto-descriptivo-white {
+  text-align: center;
+  color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+.bullet-point-white {
+  /* text-align: center; */
+  color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cajas-texto{
+    display: block;
+    z-index: 100000;
+    /* width: 80%; */
+    background-color: rgba(0, 64, 116, 0.849);
+    background-image: none;
+    background-position: top left;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    padding-top: 15px;
+    border-left: 0;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-right: 0;
+    padding-bottom: 30px;
+    min-height: 150px;
+    max-height: 190px;
+    cursor: pointer;
+    /* max-width: 400px; */
+    /* box-shadow: 0 0 8px rgba(0,0,0,0.8); */
+    border-radius: 15px;
+    display: block;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+}
+.cajas-texto:hover{
+  background-color: rgb(0, 50, 90);
+  box-shadow: 0 0 8px rgb(0, 50, 90);
+  -webkit-transform:scale(1.03);
+  transform:scale(1.03)
+}
+
+.cajas-texto-contact{
+  display: block;
+  z-index: 100000;
+  /* width: 80%; */
+  /* background-color: rgba(0, 64, 116, 0.849); */
+  background-image: none;
+  background-position: top left;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  padding-top: 15px;
+  border-left: 0;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-right: 0;
+  padding-bottom: 30px;
+  min-height: 150px;
+  max-height: 250px;
+  cursor: pointer;
+  /* max-width: 400px; */
+  /* box-shadow: 0 0 8px rgba(0,0,0,0.8); */
+  border-radius: 15px;
+  display: block;
+  transition: all ease .5s;
+  -webkit-transition: all ease .5s;
+}
+.cajas-texto-contact:hover{
+/* background-color: rgb(0, 50, 90); */
+box-shadow: 0 0 8px rgb(0, 216, 144);
+color:  rgb(0, 216, 144) !important;
+/* -webkit-transform:scale(1.03);
+transform:scale(1.03) */
+}
+.cajas-texto-contact a{
+  color:  #212529;
+  transition: all ease .5s;
+  -webkit-transition: all ease .5s;
+}
+.cajas-texto-contact a:hover{
+  color:  rgb(0, 216, 144);
+}
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cajas-texto-estilo{
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'roboto';
+    font-size: 21px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.8;
+    /* padding-top: 30px; */
+}
+.cajas-subtexto-estilo{
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'roboto';
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.8;
+  /* padding-top: 30px; */
+}
+
+.cajas-texto-black{
+  display: block;
+  z-index: 100000;
+  /* width: 80%; */
+  /* background-color: rgb(255, 255, 255); */
+  background-image: none;
+  background-position: top left;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  padding-top: 15px;
+  border-left: 0;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-right: 0;
+  padding-bottom: 30px;
+  min-height: 150px;
+  max-height: 190px;
+  /* cursor: pointer; */
+  /* max-width: 400px; */
+  /* box-shadow: 0 0 8px rgba(0,0,0,0.8); */
+  border-radius: 15px;
+  display: block;
+  transition: all ease .5s;
+  -webkit-transition: all ease .5s;
+}
+/* .cajas-texto-black:hover{
+background-color: rgba(0, 140, 255, 0.151);
+box-shadow: 0 0 8px rgba(0, 140, 255, 0.151);
+-webkit-transform:scale(1.03);
+transform:scale(1.03)
+} */
+
+.cajas-texto-estilo-black{
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'roboto';
+  font-size: 21px;
+  margin-top: 20px;
+  color: black;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.8;
+  /* padding-top: 30px; */
+}
+.cajas-subtexto-estilo-black{
+/* font-family: 'Lato', sans-serif; */
+font-family: 'roboto';
+font-size: 16px;
+color: black;
+text-align: center;
+font-weight: 300;
+line-height: 1.8;
+/* padding-top: 30px; */
+}
+
+.icon-cajas{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-cajas-black
+{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* color: black; */
+  font-size: 35px;
+}
+
+
+.button-texto{
+  display: block;
+  z-index: 100000;
+  width: 80%;
+  background-color: rgba(0, 116, 72, 0.849);
+  background-image: none;
+  background-position: top left;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  padding-top: 15px;
+  border-left: 0;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 20px; */
+  border-right: 0;
+  padding-bottom: 30px;
+  min-height: 100px;
+  max-height: 240px;
+  /* max-width: 400px; */
+  /* box-shadow: 0 0 8px rgba(0,0,0,0.8); */
+  border-radius: 15px;
+  display: block;
+  transition: all ease .5s;
+  -webkit-transition: all ease .5s;
+}
+.button-texto:hover{
+background-color: rgb(0, 116, 72);
+box-shadow: 0 0 8px rgb(0, 116, 72);
+-webkit-transform:scale(1.03);
+transform:scale(1.03)
+}
+.button-texto-estilo{
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'roboto';
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.8;
+  /* padding-top: 30px; */
+}
+.button-subtexto-estilo{
+/* font-family: 'Lato', sans-serif; */
+font-family: 'roboto';
+font-size: 14px;
+color: white;
+text-align: center;
+padding: 0 10px 0 10px;
+font-weight: 300;
+line-height: 1.8;
+/* padding-top: 30px; */
+}
+.icon-button{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+color: whitesmoke;
+font-size: 35px;
+}
+
+.img-container{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  max-width: 50%;
+}
+
+.client-img-container{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+#client-img1 {
+  background-image: url(https://i.ibb.co/ctdxvBm/2-Porrua-Monterrey-min.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img2 {
+  background-image: url(https://i.ibb.co/HxVMcnZ/1-Porrua-Monterrey-min.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img3 {
+  background-image: url(https://i.ibb.co/xsFVM4T/4-Portal-San-Angel-min.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img4 {
+  background-image: url(https://i.ibb.co/6njVfrh/3-Portal-San-Angel-min.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img5 {
+  background-image: url(https://i.ibb.co/y44WgLw/1-Portal-San-Angel-min.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img6 {
+  background-image: url(https://i.ibb.co/QH7235x/2-Portal-San-Angel-min.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img7 {
+  background-image: url(https://i.ibb.co/pn4PTcH/Porrua-Chap-min.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img8 {
+  background-image: url(https://i.ibb.co/y0DhWjX/Porrua-Chapultepec-min.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img9 {
+  background-image: url(https://i.ibb.co/34Zyk34/Instalci-n-el-ctrica-Porrua-Chapultepec-min.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img10 {
+  background-image: url(https://i.ibb.co/7vXhpgr/1-Karcher-min.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img11 {
+  background-image: url(https://i.ibb.co/YT5sFdP/3-Karcher-min.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img12 {
+  background-image: url(https://i.ibb.co/wgRmCFy/1-Inst-a-a-nuevo-en-Merchansys-min.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img13 {
+  background-image: url(https://i.ibb.co/f1wQkfS/2-Merchansys-min.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img14 {
+  background-image: url(https://i.ibb.co/DftdxSh/4-Merchansys-min.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img15 {
+  background-image: url(https://i.ibb.co/6m04qMh/3-Oficina-Condesa-min.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img16 {
+  background-image: url(https://i.ibb.co/3d4y08V/4-Oficina-Condesa-min.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img17 {
+  background-image: url(https://i.ibb.co/Sf5NPk0/2-oficina-Condesa-min.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img18 {
+  background-image: url(https://i.ibb.co/fHSC4th/1-Venta-e-instalaci-n-de-planta-de-emergencia-Karcher-min.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img19 {
+  background-image: url(https://i.ibb.co/qWm3YNs/2-Venta-e-instalaci-n-de-planta-Karcher-min.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img20 {
+  background-image: url(https://i.ibb.co/7KwK1vF/1-Mantenimiento-Hospital-en-Nezahualcoyotl-min.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+#client-img21 {
+  background-image: url(https://i.ibb.co/4ZHpxT2/2-Mantenimiento-Hospital-en-Nezahualcoyotl-min.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 350px;
+}
+
+.arrow-top {
+  margin-left: 89%;
+  margin-top: 6vh;
+  height: 30px;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out,-webkit-transform .2s ease-in-out;
+}
+.arrow-top:hover
+{
+  -webkit-transform:scale(1.2);
+  transform:scale(1.2)
+}
+
+.footer {
+  text-align:center;
+  background-color:#1d2d3d;
+  color: gray;
+  font-size: 12px;
+  font-family: sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer a {
+  color: white !important;
+  text-decoration:none;
+}
+.footer span {
+  color: white !important;
+  text-decoration:none;
+}
+
+.form-container{
+  margin: 25px 0 25px 0;
+}
+
+@keyframes animatedBackground {
+  from { background-position: 0px 0; }
+  to { background-position: -2524px 0; }
+}
+#header-top {
+  height: 310px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("/static/images/brands.f8720dc5c698.png");
+  background-repeat: repeat-x;
+  animation: animatedBackground 60s linear infinite;
+  line-height: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0,0.3);
+  transition: all ease .3s;
+  -webkit-transition: all ease .3s;
+}
+#header-top:hover{
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 768px){
+  .clientes-page{
+    background-position: center top;
+  }
+  .right-title-pagina{
+    margin-top: 10px;
+  }
+  .sec-headline-pagina2 {
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+  }
+  .sec-headline-white {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+  }
+  .img-container{
+    max-width: 80%;
+  }
+  .client-img-container{
+    max-width: 90%;
+  }
+  .cajas-texto{
+    min-height: 250px;
+    max-height: 500px;
+  }
+  .button-texto{
+    min-height: 100px;
+    max-height: 500px;
+  }
+  .cajas-texto-contact{
+    min-height: 250px;
+    max-height: 500px;
+  }
+}
