@@ -28,6 +28,7 @@ urlpatterns = [
     path('aire/', aire_view, name='aire_view'),
     path('ups/', upss_view, name='upss_view'),
     path('reguladores/', reguladores_view, name='reguladores_view'),
+    path('subestaciones/', subestaciones_view, name='subestaciones_view'),
     path('contacform/', contact_form_view, name='contact_form_view'),
     path('cotizform/', cotiz_form_view, name='cotiz_form_view'),
     path('thankyou/<str:id>/', thankyoupage_view, name='thankyoupage_view'),

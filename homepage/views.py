@@ -67,6 +67,14 @@ def reguladores_view(request, *args, **kwargs):
                 'contactform':contactform}
     return render(request, 'reguladores.html', context)
 
+def subestaciones_view(request, *args, **kwargs):
+    contactform = ContactForm()
+    cotizform = CotizForm()
+    context = {'page_title':"Subestaciones",
+                'cotizform':cotizform,
+                'contactform':contactform}
+    return render(request, 'subestaciones.html', context)
+
 def contact_form_view(request, *args, **kwargs):
     if request.method == 'POST':
         form = ContactForm(request.POST)
