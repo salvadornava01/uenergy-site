@@ -729,7 +729,7 @@ transform:scale(1.03)
   margin-right: auto;
   background-image: url("/static/images/brands.png");
   background-repeat: repeat-x;
-  animation: animatedBackground 60s linear infinite;
+  animation: animatedBackground 20s linear infinite;
   line-height: 400px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   transition: all ease 0.3s;
